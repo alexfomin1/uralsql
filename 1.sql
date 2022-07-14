@@ -1,0 +1,3 @@
+SELECT DISTINCT MONTHNAME(report_month), COUNT(client_id)
+FROM ACTIVE_CLIENTS
+GROUP BY report_month;
